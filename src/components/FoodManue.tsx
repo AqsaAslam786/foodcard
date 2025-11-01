@@ -15,7 +15,7 @@ const FoodManue = ({image,title,description,price,order}: FoodManuePropos) => {
             <h1 className="font-bold">{title}</h1>
             <p className="text-left">{description}</p>
             <h1 className="font-bold">Rs.{price}</h1>
-            <button className="bg-red-700 w-50 h-10 font-bold text-white border rounded-2xl">{order}</button>
+            <button className="bg-red-700 w-50 h-10 font-bold text-white border rounded-2xl mt-8">{order}</button>
           </div>
 
     </div>
