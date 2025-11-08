@@ -1,4 +1,4 @@
-export type FoodManueType = {
+export type FoodMenuType = {
     image:string;
     title:string;
     descripton:string;
